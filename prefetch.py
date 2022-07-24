@@ -3,7 +3,6 @@
 # https://github.com/libyal/libscca/blob/main/documentation/Windows%20Prefetch%20File%20(PF)%20format.asciidoc
 # https://github.com/volatilityfoundation/volatility3/
 # https://github.com/EricZimmerman/Prefetch/tree/master/Prefetch
-
 import logging, pathlib, datetime, io, numpy
 from volatility3.framework import renderers, interfaces, exceptions, constants
 from volatility3.framework.configuration import requirements
@@ -47,7 +46,7 @@ def decompress_prefetch(data, out):
         vollog.info("Error : The prefetch must use a 256-byte Huffman table. -> Invalid data")
 
 
-    #First, we construct our table (This part works !)
+    #First, we construct our table
     decoding_table = [0] * (2**15)
     current_table_entry = 0
     encoded_data = data[0:256]
