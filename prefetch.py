@@ -152,7 +152,7 @@ class Prefetch(interfaces.plugins.PluginInterface):
     def get_requirements(cls):
         return [requirements.ModuleRequirement(name = 'kernel', description = 'Windows kernel',
                                            architectures = ["Intel32", "Intel64"]),
-               requirements.PluginRequirement(name = 'filescan', plugin = filescan.FileScan, version = (1, 0, 0)),
+               requirements.PluginRequirement(name = 'filescan', plugin = filescan.FileScan, version = (0, 0, 0)),
                requirements.PluginRequirement(name = 'dumpfiles', plugin = dumpfiles.DumpFiles, version=(1, 0, 0))]
 
     @classmethod

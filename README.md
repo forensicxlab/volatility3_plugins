@@ -5,4 +5,4 @@ This repository contains volatility3 plugins for the <a href="https://github.com
 # Prefetch
 
 The plugin is scanning, extracting and parsing Windows Prefetch files from Windows XP to Windows 11.
-More information here : <a href="https://www.forensicxlab.com/prefetch.html">https://www.forensicxlab.com/prefetch.html</a>
+More information here : <a href="https://www.forensicxlab.com/posts/prefetch/">https://www.forensicxlab.com/posts/prefetch/</a>
