@@ -152,12 +152,11 @@ class Prefetch(interfaces.plugins.PluginInterface):
     def get_requirements(cls):
         return [requirements.ModuleRequirement(name = 'kernel', description = 'Windows kernel',
                                            architectures = ["Intel32", "Intel64"]),
-               requirements.PluginRequirement(name = 'filescan', plugin = filescan.FileScan, version = (0, 0, 0)),
-               requirements.PluginRequirement(name = 'dumpfiles', plugin = dumpfiles.DumpFiles, version=(1, 0, 0))]
+               requirements.PluginRequirement(name = 'filescan', plugin = filescan.FileScan, version = (0, 0, 0)),]
 
     @classmethod
     def Version17(cls, prefetch_file):
-        """Extract pf informations for Version 26"""
+        """Extract pf informations for Version 17"""
         stream = io.BytesIO(prefetch_file)
 
         stream.seek(0x000C)
@@ -358,7 +357,7 @@ class Prefetch(interfaces.plugins.PluginInterface):
                                    f"SharedCacheMap is unavailable for file {file_obj.vol.offset:#x}")
                     vollog.info(f"memory_objects : {memory_objects}")
 
-                    """Now, read and parse our PF and parse them to retrieve our artifacts"""
+                    """Now, read and parse our PF to retrieve our artifacts"""
                     for memory_object, layer in memory_objects:
                         bytes_read = 0
                         prefetch_raw = b''
