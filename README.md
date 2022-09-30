@@ -21,6 +21,6 @@ More information here : <a href="https://www.forensicxlab.com/posts/anydesk/">ht
 
 ## Inodes
 
-The plugin is a pushed verion of the lsof plugin extracting inode metadata information from each files.
+The plugin is a pushed version of the lsof plugin, extracting inode metadata from each files.
 <br>
 More information here : https://www.forensicxlab.com/posts/inodes/
