@@ -10,6 +10,12 @@ The plugin is scanning, extracting and parsing Windows Prefetch files from Windo
 <br>
 More information here : <a href="https://www.forensicxlab.com/posts/prefetch/">https://www.forensicxlab.com/posts/prefetch/</a>
 
+## AnyDesk
+
+The plugin is scanning, extracting and parsing Windows AnyDesk trace files.
+<br>
+More information here : <a href="https://www.forensicxlab.com/posts/anydesk/">https://www.forensicxlab.com/posts/anydesk/</a>
+
 
 # Linux plugins
 
