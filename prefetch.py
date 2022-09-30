@@ -6,7 +6,7 @@
 import logging, pathlib, datetime, io, numpy
 from volatility3.framework import renderers, interfaces, exceptions, constants
 from volatility3.framework.configuration import requirements
-from volatility3.plugins.windows import filescan, dumpfiles
+from volatility3.plugins.windows import filescan
 from volatility3.framework.renderers import format_hints, conversion
 
 vollog = logging.getLogger(__name__)
