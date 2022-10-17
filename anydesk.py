@@ -1,4 +1,4 @@
-import logging, pathlib, datetime, io, re, datetime
+import logging, pathlib, datetime, io, re
 from volatility3.framework import renderers, interfaces, exceptions, constants
 from volatility3.framework.configuration import requirements
 from volatility3.plugins import timeliner
