@@ -16,7 +16,10 @@ The plugin is scanning, extracting and parsing Windows AnyDesk trace files.
 <br>
 More information here : <a href="https://www.forensicxlab.com/posts/anydesk/">https://www.forensicxlab.com/posts/anydesk/</a>
 
-
+## KeePass
+The plugin is scanning the keepass process for potential password recovery following CVE-2023-32784
+<br>
+More information here : <a href="#">[Blogpost coming soon]/</a>
 # Linux plugins
 
 ## Inodes
