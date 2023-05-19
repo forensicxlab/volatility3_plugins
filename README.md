@@ -19,7 +19,7 @@ More information here : <a href="https://www.forensicxlab.com/posts/anydesk/">ht
 ## KeePass
 The plugin is scanning the keepass process for potential password recovery following CVE-2023-32784
 <br>
-More information here : <a href="#">[Blogpost coming soon]/</a>
+More information here : <a href="https://www.forensicxlab.com/posts/keepass/">https://www.forensicxlab.com/posts/keepass/</a>
 # Linux plugins
 
 ## Inodes
