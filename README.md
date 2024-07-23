@@ -46,7 +46,7 @@ More information here : <a href="https://www.forensicxlab.com/posts/volads/">htt
 The plugin is a pushed version of the lsof plugin, extracting inode metadata from each files.
 <br>
 More information here : <a href="https://www.forensicxlab.com/posts/inodes/">https://www.forensicxlab.com/posts/inodes/</a>
-Pull request : TBD.
+Pull request : https://github.com/volatilityfoundation/volatility3/pull/1213
 
 
 # Translation layers
